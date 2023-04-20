@@ -1,0 +1,7 @@
+<suite name="TestVagrant">
+    <test name="User Records Test">
+        <classes>
+            <class name="test.vagrant.UnitTest"/>
+        </classes>
+    </test>
+</suite>

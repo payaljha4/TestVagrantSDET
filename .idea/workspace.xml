@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f20b5c76-3021-465c-87b0-5acde9d3417e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/simple-it/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/simple-it/verify.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vagrant/PlayedSong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vagrant/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vagrant/UserRecords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/vagrant/UnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/vagrant/testNg/UnitTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vagrant/UserRecords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vagrant/UserRecords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +42,27 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.vagrant.Test" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\IdeaProjects\TestVagrantSDET\src\main\java\test\vagrant\testNg" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/hp/IdeaProjects/TestVagrantSDET/src/main/java/test/vagrant/testNg/UnitTest.xml">
+    <configuration name="C:/Users/hp/IdeaProjects/TestVagrantSDET/src/main/java/test/vagrant/testNg/UnitTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagrantSDET" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/test/vagrant/testNg/UnitTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestVagrantSDET" />
       <extension name="coverage">
         <pattern>
@@ -62,13 +70,76 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.vagrant" />
+      <option name="MAIN_CLASS_NAME" value="test.vagrant.UnitTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTest.verifyNumberOfSongInPlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagrantSDET" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vagrant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vagrant" />
+      <option name="MAIN_CLASS_NAME" value="test.vagrant.UnitTest" />
+      <option name="METHOD_NAME" value="verifyNumberOfSongInPlaylist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTest.verifyNumberOfSongInPlaylistWhenCapacityExceeded" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagrantSDET" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vagrant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vagrant" />
+      <option name="MAIN_CLASS_NAME" value="test.vagrant.UnitTest" />
+      <option name="METHOD_NAME" value="verifyNumberOfSongInPlaylistWhenCapacityExceeded" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTest.verifyNumberOfSongInPlaylistWhenPlaylistIsEmpty" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagrantSDET" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vagrant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vagrant" />
+      <option name="MAIN_CLASS_NAME" value="test.vagrant.UnitTest" />
+      <option name="METHOD_NAME" value="verifyNumberOfSongInPlaylistWhenPlaylistIsEmpty" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="TestNG.C:/Users/hp/IdeaProjects/TestVagrantSDET/src/main/java/test/vagrant/testNg/UnitTest.xml" />
+        <item itemvalue="TestNG.UnitTest" />
+        <item itemvalue="TestNG.UnitTest.verifyNumberOfSongInPlaylistWhenPlaylistIsEmpty" />
+        <item itemvalue="TestNG.UnitTest.verifyNumberOfSongInPlaylistWhenCapacityExceeded" />
+        <item itemvalue="TestNG.UnitTest.verifyNumberOfSongInPlaylist" />
       </list>
     </recent_temporary>
   </component>
